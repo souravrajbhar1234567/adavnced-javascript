@@ -1,16 +1,16 @@
 /*class Person {
-    constructor(firstname, lastname) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+   // constructor(firstname, lastname) {
+       // this.firstname = firstname;
+       // this.lastname = lastname;
 
         // Create a new instance of Person with both firstname and lastname
-        let p = new Person('Maike', 'Smith'); // Provide both arguments
-        console.log("hi", p.firstname, p.lastname);
-    }
-}
+       // let p = new Person('Maike', 'Smith'); // Provide both arguments
+       // console.log("hi", p.firstname, p.lastname);
+ //   }
+//}
 
 // Example of creating a Person instance
-let person = new Person('John', 'Doe');*/
+//let person = new Person('John', 'Doe');*/
 // methods -> we dont use the function keywords
 /*class Person {
     constructor(firstname, lastname) {
@@ -68,4 +68,36 @@ console.log(compliment);*/
   //let p = new Person ("maria", "saga")
   //console.log(p.firstname);
   
-  
+  // inheritance-> rresusability of code;
+  /*class vehicle{
+    constructor (color , currentSpeed, maxSpeed){
+        this.color=color;
+        this.currentSpeed=currentSpeed;
+        this.maxSpeed=maxSpeed;
+    }
+    move(){
+        console.log('moving at', this.currentSpeed);
+    }
+    
+  accelerate(amount){
+    this.currentSpeed+=amount;
+
+  }}
+
+  class Motorcycle extends vehicle{
+    constructor(color ,currentSpeed,maxSpeed,fule){
+        super(color, currentSpeed,maxSpeed);
+        this.fuel=this.fuel;
+
+    }
+    doWheelie(){
+        console.log("driving on wheel !");
+
+    }
+  }
+let motor = new Motorcycle("black", 0,250,"gasoline");
+
+console.log(motor.color);
+motor.accelerate(50);
+motor.move();*/
+
